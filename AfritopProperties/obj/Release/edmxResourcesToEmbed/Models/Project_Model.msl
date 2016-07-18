@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
-  <Alias Key="Model" Value="Project_Model" />
-  <Alias Key="Target" Value="Project_Model.Store" />
-  <EntityContainerMapping CdmEntityContainer="Project_ModelContainer" StorageEntityContainer="Project_ModelTargetContainer" />
-</Mapping>
