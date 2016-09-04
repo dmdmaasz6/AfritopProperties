@@ -193,6 +193,7 @@
     <Content Include="font\fonts\fontawesome-webfont.svg" />
     <Content Include="font\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\afritop_logo.jpg" />
     <Content Include="images\arrows.png" />
     <Content Include="images\bg_direction_nav.png" />
     <Content Include="images\clients\client-1.png" />
@@ -227,6 +228,7 @@
     <Content Include="images\slides\3.jpg" />
     <Content Include="images\tag-1.png" />
     <Content Include="images\tag.png" />
+    <Content Include="images\Transparent Logo.png" />
     <Content Include="images\work\1.jpg" />
     <Content Include="images\work\2.jpg" />
     <Content Include="images\work\3.jpg" />
