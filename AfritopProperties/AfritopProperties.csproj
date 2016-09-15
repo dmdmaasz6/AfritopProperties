@@ -193,6 +193,7 @@
     <Content Include="font\fonts\fontawesome-webfont.svg" />
     <Content Include="font\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="googleac696a94b75b561c.html" />
     <Content Include="images\afritop_logo.jpg" />
     <Content Include="images\arrows.png" />
     <Content Include="images\bg_direction_nav.png" />
@@ -345,7 +346,9 @@
     <Content Include="Scripts\template_scripts\owl-carousel\owl.transitions.css" />
     <Content Include="Scripts\template_scripts\waypoints.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

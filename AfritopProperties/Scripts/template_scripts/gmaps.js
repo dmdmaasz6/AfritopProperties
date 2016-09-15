@@ -147,7 +147,7 @@ var GMaps = (function(global) {
         container_id = options.el || options.div,
         markerClustererFunction = options.markerClusterer,
         mapType = google.maps.MapTypeId[options.mapType.toUpperCase()],
-        map_center = new google.maps.LatLng(options.lat, options.lng),
+        map_center = new google.maps.LatLng(-22.5801327, 17.0899846),
         zoomControl = options.zoomControl || true,
         zoomControlOpt = options.zoomControlOpt || {
           style: 'DEFAULT',
