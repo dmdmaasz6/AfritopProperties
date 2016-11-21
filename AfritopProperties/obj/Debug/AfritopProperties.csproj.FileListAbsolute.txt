@@ -162,3 +162,4 @@ C:\Users\MaddMike\Desktop\AfritopProperties\AfritopProperties\bin\Microsoft.Owin
 C:\Users\MaddMike\Desktop\AfritopProperties\AfritopProperties\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\MaddMike\Desktop\AfritopProperties\AfritopProperties\obj\Debug\AfritopProperties.dll
 C:\Users\MaddMike\Desktop\AfritopProperties\AfritopProperties\obj\Debug\AfritopProperties.pdb
+C:\Users\MaddMike\Desktop\AfritopProperties\AfritopProperties\obj\Debug\AfritopProperties.csprojResolveAssemblyReference.cache

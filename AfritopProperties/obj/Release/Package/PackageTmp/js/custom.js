@@ -110,6 +110,7 @@ var customScripts = {
 }
 $('document').ready(function () {
     customScripts.init();
+
 	/*----------------------------------------------------*/
 /*	gmaps
 ------------------------------------------------------*/
@@ -170,5 +171,44 @@ $('document').ready(function () {
         sync                : "",                //{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
         asNavFor            : "",                //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
     });
+    /**custom images**/
 
+    /**custom images**/
 });
+var modal = document.getElementById('myModal');
+var modal2 = document.getElementById('myModal2');
+var modal3 = document.getElementById('myModal3');
+var modal4 = document.getElementById('myModal4');
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var img2 = document.getElementById('myImg2');
+var img3 = document.getElementById('myImg3');
+var img4 = document.getElementById('myImg4');
+
+var captionText = document.getElementById("caption");
+
+img.onclick = function () {
+    modal.style.display = "block";
+    captionText.innerHTML = this.alt;
+}
+img2.onclick = function () {
+    modal2.style.display = "block";
+    captionText.innerHTML = this.alt;
+}
+img3.onclick = function () {
+    modal3.style.display = "block";
+    captionText.innerHTML = this.alt;
+}
+img4.onclick = function () {
+    modal4.style.display = "block";
+    captionText.innerHTML = this.alt;
+}
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}

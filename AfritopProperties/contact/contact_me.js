@@ -21,11 +21,12 @@ $(function() {
            // Check for white space in name for Success/Fail message
         if (firstName.indexOf(' ') >= 0) {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
-         }        
+        }
+        var url = $("#postEmail").val();
 	 $.ajax({
-                url: "contact/contact_me.php",
+	            url: $("#postEmail").val(),
             	type: "POST",
-            	data: {name: name, email: email, message: message},
+            	data: {Subject: name, From: email, Message: message},
             	cache: false,
             	success: function() {  
             	// Success message
