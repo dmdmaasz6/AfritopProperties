@@ -33,15 +33,15 @@ namespace AfritopProperties.Controllers
             int status = 1;
             MailMessage mail = new MailMessage();
             mail.Body = email.Message;
-            mail.To.Add("chamunorwamichael@gmail.com");
+            mail.To.Add("info@afritop-properties.com");
             mail.From = new MailAddress(email.From);
             mail.Subject = email.Subject;
             SmtpClient smtp = new SmtpClient();
-            smtp.Host = "smtp.gmail.com";
-            smtp.Port = 587;
+            smtp.Host = "mail.afritop-properties.com";
+            smtp.Port = 25;//try 587 or 8889 as well
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = new System.Net.NetworkCredential
-            ("chamunorwamichael@gmail.com", "caygersShuvai@1979");// Enter seders User name and password
+            ("info@afritop-properties.com", "pw");// Enter seders User name and password
             smtp.EnableSsl = true;
             smtp.Send(mail);
             return status;
